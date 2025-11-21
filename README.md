@@ -3,7 +3,7 @@
 一套專為 SunnyData  初學者打造的 Python 入門教材，集中保存在 `PythonBeginner/` 目錄中。內容涵蓋分日 Lab、Colab 專案、常見錯誤筆記與協作守則，採「料理食譜」式排版，方便快速查閱。
 
 ## 📦 目錄概覽
-- `lab/`：本機練習素材，依 DAY1、DAY2 分類，再細分章節（如 `ch01-variables-and-types`、`ch05-loops`）與整合專題 `project-personal-finance`。
+- `lab/`：本機練習素材，依 DAY1、DAY2 分類，再細分章節（如 `ch01-variables-and-types`、`ch05-loops`）與整合專題 `project-calculator`、`project-personal-finance`。
 - `references/`：學習輔助資料，包含 `common-errors.ipynb`（錯誤對照表）與 `python-glossary.md`（術語表）。
 - `SunnyDataScienceStudentCodeofConduct.md`：共同學習守則與協作規範。
 - `README.md`：專案說明文件（本檔）。
@@ -12,6 +12,7 @@
 ## 🗂️ Lab 模組地圖
 - **DAY1：程式思維起步**
   - `ch01-variables-and-types`、`ch02-operators-and-expressions`、`ch03-io`
+  - `project-calculator`：整合變數、運算子與 I/O 的簡易加法計算機專案
   - 目標：掌握資料型別、運算與 I/O，建立基礎語法肌肉
 - **DAY2：流程控制 + 函式雛形**
   - `ch04-conditionals`、`ch05-loops`、`ch06-lists`、`ch07-functions`
@@ -33,7 +34,9 @@
    - 常見錯誤可查 `references/common-errors.ipynb` 或於 Discord 詢問。
 
 ## 🌐 Colab 按鈕說明
-- 範例網址：`https://colab.research.google.com/github/sunnydata/SunnyData-python-beginner-cookbook/blob/main/lab/DAY2/project-personal-finance/solution.ipynb`
+- 範例網址：
+  - DAY1：`https://colab.research.google.com/github/sunnydata/SunnyData-python-beginner-cookbook/blob/main/lab/DAY1/project-calculator/starter-code.ipynb`
+  - DAY2：`https://colab.research.google.com/github/sunnydata/SunnyData-python-beginner-cookbook/blob/main/lab/DAY2/project-personal-finance/solution.ipynb`
 - 徽章語法（僅供參考）：  
   ```
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sunnydata/SunnyData-python-beginner-cookbook/blob/main/{檔案路徑}.ipynb)
@@ -43,7 +46,7 @@
 ## 🎯 MVP 與價值
 1. **核心語法食譜**：Day1/Day2 labs 覆蓋變數、條件、迴圈、清單、函式。
 2. **錯誤排除資料庫**：`references/` 提供常見 bug 的重現、原因與修復步驟。
-3. **主題專案**：`project-personal-finance` 等練習，強化整合與需求分析能力。
+3. **主題專案**：`project-calculator`（DAY1）、`project-personal-finance`（DAY2）等練習，強化整合與需求分析能力。
 4. **協作文化**：Code of Conduct 確保線上/線下學習氛圍。
 
 
